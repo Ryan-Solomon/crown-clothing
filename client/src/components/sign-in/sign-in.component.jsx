@@ -7,7 +7,7 @@ import {
   emailSignInStart,
 } from '../../redux/user/user.actions';
 
-import { connect } from 'reselect';
+import { connect } from 'react-redux';
 
 const SignIn = ({ emailSignInStart, googleSignInStart }) => {
   const [userCredentials, setCredentials] = useState({
